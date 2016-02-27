@@ -1,4 +1,5 @@
 /// <reference path="../../typings/tsd.d.ts" />
+/// <reference path="../../node_modules/angular2/typings/browser.d.ts" />
 import { ViewContainerRef, EventEmitter, AfterViewInit } from 'angular2/core';
 import { NgModel, ControlValueAccessor } from 'angular2/common';
 export declare class DatePicker implements ControlValueAccessor, AfterViewInit {
